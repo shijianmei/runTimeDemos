@@ -16,6 +16,8 @@
 		441670151F60075000FB65B4 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441670141F60075000FB65B4 /* _____Tests.m */; };
 		441670201F60075100FB65B4 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416701F1F60075100FB65B4 /* _____UITests.m */; };
 		4416702F1F600ABF00FB65B4 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416702E1F600ABF00FB65B4 /* Car.m */; };
+		44D3690A1F6BD77B00AAD056 /* NSObject+Coding.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D369091F6BD77B00AAD056 /* NSObject+Coding.m */; };
+		44D3690D1F6BD7F000AAD056 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D3690C1F6BD7F000AAD056 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		441670211F60075100FB65B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4416702D1F600ABF00FB65B4 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		4416702E1F600ABF00FB65B4 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		44D369081F6BD77B00AAD056 /* NSObject+Coding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Coding.h"; sourceTree = "<group>"; };
+		44D369091F6BD77B00AAD056 /* NSObject+Coding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Coding.m"; sourceTree = "<group>"; };
+		44D3690B1F6BD7F000AAD056 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		44D3690C1F6BD7F000AAD056 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				44166FFA1F60075000FB65B4 /* Supporting Files */,
 				4416702D1F600ABF00FB65B4 /* Car.h */,
 				4416702E1F600ABF00FB65B4 /* Car.m */,
+				44D3690B1F6BD7F000AAD056 /* Dog.h */,
+				44D3690C1F6BD7F000AAD056 /* Dog.m */,
+				44D369081F6BD77B00AAD056 /* NSObject+Coding.h */,
+				44D369091F6BD77B00AAD056 /* NSObject+Coding.m */,
 			);
 			path = "归档和解档";
 			sourceTree = "<group>";
@@ -278,10 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D3690D1F6BD7F000AAD056 /* Dog.m in Sources */,
 				441670021F60075000FB65B4 /* ViewController.m in Sources */,
 				44166FFF1F60075000FB65B4 /* AppDelegate.m in Sources */,
 				4416702F1F600ABF00FB65B4 /* Car.m in Sources */,
 				44166FFC1F60075000FB65B4 /* main.m in Sources */,
+				44D3690A1F6BD77B00AAD056 /* NSObject+Coding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

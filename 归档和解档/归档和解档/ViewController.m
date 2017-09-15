@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Car.h"
+#import "Dog.h"
 
 @interface ViewController ()
 
@@ -17,17 +18,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Car *car = [[Car alloc]init];
-    car.name = @"法拉咯";
-    car.color = @"白色";
+    Dog *car = [[Dog alloc]init];
+    car.name = @"法拉咯1";
+    car.color = @"白色1";
     
-    NSString *path = [NSHomeDirectory() stringByAppendingString:@"car.text"];
+    NSString *path = [NSHomeDirectory() stringByAppendingString:@"dog.txt"];
     BOOL success = [NSKeyedArchiver archiveRootObject:car toFile:path];
     if (success) {
         NSLog(@"归档成功");
     }
     
-    Car *c = [NSKeyedUnarchiver unarchiveObjectWithFile:path ];
+    Dog *c = [NSKeyedUnarchiver unarchiveObjectWithFile:path ];
     NSLog(@"%@",c);
 }
 
